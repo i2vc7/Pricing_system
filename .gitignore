@@ -1,0 +1,84 @@
+# Laravel specific
+.env
+.env.*
+!.env.example
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+storage/logs/*
+!storage/logs/.gitkeep
+
+# Cache and compiled files
+bootstrap/cache/*
+!bootstrap/cache/.gitkeep
+storage/framework/cache/*
+!storage/framework/cache/.gitkeep
+storage/framework/sessions/*
+!storage/framework/sessions/.gitkeep
+storage/framework/views/*
+!storage/framework/views/.gitkeep
+
+# Upload directories
+storage/app/public/*
+!storage/app/public/.gitkeep
+storage/app/imports/auto/*
+!storage/app/imports/auto/.gitkeep
+storage/app/imports/processed/*
+!storage/app/imports/processed/.gitkeep
+
+# Build artifacts
+/public/mix-manifest.json
+/public/assets/
+mix-manifest.json
+
+# Temporary files
+tmp/
+temp/
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Coverage and testing
+coverage/
+.nyc_output/
+.coverage
+phpunit.xml
+!phpunit.xml.dist
+
+# Package managers
+package-lock.json
+yarn.lock
+composer.lock
+
+# Additional Laravel files
+.phpunit.result.cache
+.php-cs-fixer.cache

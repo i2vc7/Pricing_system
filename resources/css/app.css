@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Figtree', sans-serif;
+    }
+}
+
+@layer components {
+    /* RTL Support */
+    .rtl {
+        direction: rtl;
+    }
+    
+    /* Arabic Font */
+    .font-arabic {
+        font-family: 'Noto Sans Arabic', sans-serif;
+    }
+    
+    /* Custom gradients */
+    .gradient-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    
+    .gradient-secondary {
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    }
+    
+    /* Smooth transitions */
+    .transition-all {
+        transition: all 0.3s ease;
+    }
+    
+    /* Custom button styles */
+    .btn-primary {
+        @apply bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors inline-flex items-center justify-center;
+    }
+    
+    .btn-secondary {
+        @apply border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors;
+    }
+    
+    /* Card styles */
+    .card {
+        @apply bg-white p-6 rounded-lg shadow-sm border hover:shadow-md transition-shadow;
+    }
+    
+    .card-feature {
+        @apply p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-all duration-300 hover:border-indigo-300;
+    }
+}
+
+@layer utilities {
+    /* Custom spacing */
+    .space-y-20 > * + * {
+        margin-top: 5rem;
+    }
+    
+    /* Text gradients */
+    .text-gradient {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    /* Custom shadows */
+    .shadow-feature {
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    
+    .shadow-feature:hover {
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+}
