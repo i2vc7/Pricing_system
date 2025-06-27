@@ -1,11 +1,11 @@
-# 🚀 Micro SaaS Pricing Analytics System
+# 🚀  Pricing Analytics System
 
 [![Laravel](https://img.shields.io/badge/Laravel-11-red.svg)](https://laravel.com)
 [![Filament](https://img.shields.io/badge/Filament-3-orange.svg)](https://filamentphp.com)
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-blue.svg)](https://tailwindcss.com)
 
-A comprehensive **Micro SaaS Pricing Analytics System** built with Laravel 11 + Filament 3, featuring a beautiful React landing page with Arabic/English support, advanced data analytics, and ETL pipeline for processing large datasets.
+A comprehensive ** Pricing Analytics System** built with Laravel 11 + Filament 3, featuring a beautiful React landing page with Arabic/English support, advanced data analytics, and ETL pipeline for processing large datasets.
 
 ## ✨ **Live Demo**
 
